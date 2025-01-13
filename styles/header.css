@@ -1,0 +1,11 @@
+header {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.875rem;
+
+  & img {
+    width: 9.6875rem;
+    height: 2.5rem;
+  }
+}
