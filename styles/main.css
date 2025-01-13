@@ -1,0 +1,14 @@
+main {
+  & > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.875rem;
+    margin-bottom: 2.75rem;
+
+    & img {
+      width: 3.5625rem;
+      height: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
