@@ -1,0 +1,26 @@
+.input-wrapper {
+  & > div {
+    display: flex;
+    gap: 1rem;
+
+    & input {
+      flex: 1;
+      align-items: center;
+      border: 2px solid var(--border-primary);
+      padding: 0 1.125rem;
+      height: 2.75rem;
+      border-radius: 0.75rem;
+      background-color: var(--bg-secondary);
+      font: 400 1rem/1.4 var(--font-primary);
+
+      &:hover {
+        border-color: var(--border-hover);
+      }
+
+      &:focus {
+        border-color: var(--color-brand-hover);
+        outline: none;
+      }
+    }
+  }
+}
