@@ -57,6 +57,10 @@ a {
   font: var(--font-link);
 }
 
+ul li {
+  list-style: none;
+}
+
 .container {
   max-width: 39.1875rem;
   padding-inline: 2rem;
