@@ -37,7 +37,6 @@
 body {
   font: inherit;
   background-color: var(--bg-primary);
-  overflow: hidden;
 }
 
 h1 {
