@@ -23,41 +23,21 @@
       <h1>Compras da semana</h1>
     </div>
 
-    <form action="">
+    <form>
       <div class="input-wrapper">
         <div>
           <input type="text" name="newItem" id="newItem" placeholder="Adicionar um novo item">
-          <button type="submit">Adicionar item</button>
+          <button type="submit" id="btn">Adicionar item</button>
         </div>
       </div>
 
       <div class="list-wrapper">
         <ul role="listitem" id="list">
-          <li>
-            <input type="checkbox" name="" id="">
-            <span>Pão de Forma</span>
-            <img src="./image/icons/icon-bin.svg" alt="">
-          </li>
-          <li>
-            <input type="checkbox" name="" id="">
-            <span>Café Preto</span>
-            <img src="./image/icons/icon-bin.svg" alt="">
-          </li>
-          <li>
-            <input type="checkbox" name="" id="">
-            <span>Suco de Laranja</span>
-            <img src="./image/icons/icon-bin.svg" alt="">
-          </li>
-          <li>
-            <input type="checkbox" name="" id="">
-            <span>Bolacha</span>
-            <img src="./image/icons/icon-bin.svg" alt="">
-          </li>
         </ul>
       </div>
       <div class="warning hidden" id="warning-alert">
         <img src="./image/icons/warning-circle-filled.svg" alt="Ícone de alerta">
-        <span>O item <span class="item"></span>foi removido da lista</span>
+        <span>O item <span class="item"></span> foi removido da lista</span>
         <img src="./image/icons/delete-small.svg" alt="Ícone de remover a mensagem" id="close-warning">
       </div>
     </form>
