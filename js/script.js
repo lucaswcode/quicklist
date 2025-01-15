@@ -20,11 +20,14 @@ form.onsubmit = (event) => {
 
     const imgDelete = document.createElement("img");
     imgDelete.setAttribute("src", "./image/icons/icon-bin.svg");
+
     
-    imgDelete.addEventListener("click", () => {      
-      itemName.textContent = spanItem.textContent;
-      warningAlert.classList.remove("hidden");
-      listItem.remove();
+    imgDelete.addEventListener("click", () => {    
+      if (inputItem.checked) {
+        listItem.remove();
+      } else {
+        alert("Selecione o item para que ele possa ser removido..");
+      }
     });
 
     listItem.append(inputItem);
